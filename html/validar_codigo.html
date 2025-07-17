@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Validar Código</title>
+    <link rel="stylesheet" href="../css/validar_codigo.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsencrypt/bin/jsencrypt.min.js"></script>
+</head>
+<body>
+    <div class="cabeçalho">
+        <a href="bem_vindo.html" class="nav-logo-text">GameWorld</a>
+    </div>
+
+    <div id="fundoBloqueador" class="overlay"></div>
+
+    <div id="alertaPersonalizado" class="alerta">
+        <span id="mensagemAlerta"></span>
+        <button onclick="fecharAlerta()">OK</button>
+    </div>
+
+
+    <div class="container">
+        <form id="formCodigo">
+            <h1>Validar Código</h1>
+            <input type="text" id="codigo" name="codigo" placeholder="Digite o código recebido" required><br>
+            <button type="button" onclick="validarCodigo()">Validar</button>
+        </form>
+    </div>
+
+    <script src="../js/validar_codigo.js"></script>
+</body>
+</html>
