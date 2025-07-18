@@ -1,2 +1,15 @@
 # Jogos-web
-Este é um projeto com o objetivo de criar um site de feedback de jogos, utilizando de Criptografia híbrida para a proteção de dados
+
+## Sobre ele
+-Este foi um projeto com foco em varias habilidades em relação a programação web, desenvolver habilidade em html, css, php e javascript
+
+## Requisitos
+-Aplicar recursividade em todas as paginas do projeto
+
+-Manter organização no projeto, separando-as em arquivos diferentes (HTML,PHP, CSS e JavaScript)
+
+-Utilização de Trello e Github para o desenvolvimento do projeto 
+
+-Utilizar recursos como, Prepared Statements e Esteganografia 
+
+-Aplicação de criptografia Híbria 
