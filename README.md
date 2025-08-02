@@ -75,7 +75,7 @@ O **GameWorlds** permite que usuários se cadastrem, adicionem jogos, façam ava
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/GameWorlds.git
+   git clone https://github.com/Douglas-RC-08/GameWorlds.git
    
 2. Desoculte/extraia o config.php com as credenciais via esteganografia (documentação incluída).
 
