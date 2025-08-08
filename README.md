@@ -37,15 +37,17 @@ O **GameWorlds** permite que usuários se cadastrem, adicionem jogos, façam ava
 
 ---
 
-## 📄 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
-- GameWorlds/
-- ├── frontend/ # HTML/CSS/JS das páginas
-- ├── backend/ # Scripts PHP de autenticação e persistência
-- ├── assets/ # Imagens e ícones de jogos
-- ├── config/ # Configuração do BD com esteganografia
-- ├── sql/ # Scripts de criação do banco
-- └── README.md
+```bash
+GameWorlds/
+├── frontend/    # HTML, CSS e JavaScript das páginas
+├── backend/     # Scripts PHP de autenticação e persistência
+├── assets/      # Imagens e ícones dos jogos
+├── config/      # Configuração do Banco de Dados com esteganografia
+├── sql/         # Scripts de criação do banco de dados
+└── README.md
+```
 
 
 ---
